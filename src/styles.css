@@ -253,7 +253,7 @@ html.touch-ctl #touchpad { display: block; }
 #touchpad .b-state.stopped { background: rgba(60, 207, 122, .45); border-color: var(--good) !important; }
 #touchpad .b-rotary { grid-area: rotary; border-color: #ffe03a !important; color: #fff3a8 !important; }
 #touchpad .b-roller { grid-area: roller; border-color: #ff8a1f !important; color: #ffd2a8 !important; }
-#touchpad .b-rotary.on { background: rgba(255, 224, 58, .45); } #touchpad .b-roller.on { background: rgba(255, 138, 31, .45); }
+#touchpad .tbtns .b-rotary.on { background: rgba(160, 130, 0, .8); } #touchpad .tbtns .b-roller.on { background: rgba(190, 90, 0, .8); }
 /* with the touch controls: robot status at the top left, no minimap (the buttons take the bottom right) */
 html.touch-ctl .panel.map { display: none !important; }
 html.touch-ctl .panel.robot { left: 6px; top: 6px; bottom: auto; zoom: .5; }
